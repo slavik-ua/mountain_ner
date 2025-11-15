@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.env
+.gradio
+.ipynb_checkpoints
+
+dataset
+mountains_prepared.hf_dataset
+output_mountain_ner
+*.gguf
+Ideas.md

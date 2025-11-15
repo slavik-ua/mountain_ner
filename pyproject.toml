@@ -1,0 +1,25 @@
+[project]
+name = "task1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate==0.27.2",
+    "beautifulsoup4>=4.14.2",
+    "datasets>=4.4.1",
+    "evaluate>=0.4.6",
+    "gradio>=5.49.1",
+    "langchain>=1.0.5",
+    "langchain-google-genai>=3.0.1",
+    "langchain-ollama>=1.0.0",
+    "langchain-openai>=1.0.2",
+    "lxml>=6.0.2",
+    "notebook>=7.4.7",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "seqeval>=1.2.2",
+    "spacy>=3.8.8",
+    "tqdm>=4.67.1",
+    "transformers[torch]==4.38.0",
+]
